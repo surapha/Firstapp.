@@ -3,21 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/TitleFragment"
+    app:startDestination="@id/titlefragment"
     tools:ignore="UnusedNavigation">
     <fragment
-        android:id="@+id/TitleFragment"
+        android:id="@+id/titlefragment"
         android:name="android.example.com.firstapp.TitleFragment"
         android:label="FirstApp"
         tools:layout="@layout/fragment_title" />
     <fragment
-        android:id="@+id/aboutFragment"
+        android:id="@+id/aboutfragment"
         android:name="android.example.com.firstapp.AboutFragment"
         android:label="About"
         tools:layout="@layout/fragment_about" />
     <fragment
-        android:id="@+id/contactFragment"
+        android:id="@+id/contactfragment"
         android:name="android.example.com.firstapp.ContactFragment"
         android:label="Contact"
         tools:layout="@layout/fragment_contact" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="android.example.com.firstapp.MainActivity"
+        android:label="MainActivity"
+        tools:layout="@layout/activity_new" />
 </navigation>

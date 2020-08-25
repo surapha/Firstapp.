@@ -3,6 +3,10 @@ package android.example.com.firstapp
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
+import android.example.com.firstapp.databinding.ActivityMainBinding
+import androidx.databinding.DataBindingUtil
 
 
 class MainActivity : AppCompatActivity() {
